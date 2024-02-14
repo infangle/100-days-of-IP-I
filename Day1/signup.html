@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta keyword="signup">
+    
+
+        <title> signup page </title>
+    
+        <link rel="stylesheet" type="text/css" href="../Day1/signup.css">
+
+        <script src="signup.js"></script>
+
+    </head>
+
+    <body>
+        <div class="main">
+            <div class="rightSignup">
+                <br><br>
+                <p class="headline">create an account to continue</p>
+                <h2 class="headline">Getting Started</h2>
+                <br>
+
+                <form>
+                    <label for="fullname">Full name</label><br>
+                    <input class="no-border" type="text" id="fullname" placeholder="Bubu Dragos"><br><hr>
+
+                    <label for="email">Email Address</label><br>
+                    <input class="no-border" type="email" id="email" placeholder="infangle@dailychallenge.com"><input class="evalid" type="checkbox" id="email verify"> <br><hr>
+
+                    <label for="password">Password</label><br>
+                    <input class="no-border" type="password" id="password" placeholder="*****************">
+                    <i class="fas fa-eye-slash" id="togglePassword"></i>
+                    <hr>
+
+                    <label for="strength">password strength</label><br>
+                    <progress value="1" max="5" id="strengthBar"></progress><br><br>
+                    
+                    <input type="checkbox" id="terms">
+                    <label for="terms">By creating an account you agree to our <a href="terms.html">Terms and Conditions</a> </label>
+                    
+                    <br><br>
+                    <input type="submit" class="submit" onclick="validateForm()" value="Register">
+
+                    <br>
+                    <p id="or">OR</p>
+                    <br><br>
+
+                    <i class="material-icons" >Google</i>
+                    <span id="google">Continue with Google</span>
+                    <br><br>
+
+                    <p class="login">Already have an account? <a href="login.html">login</a> </p>
+                </form>
+            </div>
+            <div class="leftside">
+                <img id="img" src="img.jpg">
+                <h3>ALL IN ONE</h3>
+                <h1>Composable Cloud</h1>
+                <p>modular compute, storage and networking components paired with<br>
+                    the cloud virtualization software to create pools of IT resources</p>
+                    <br>
+
+
+
+
+            </div>
+        </div>
+    </body>

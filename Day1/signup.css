@@ -1,0 +1,67 @@
+/* *{
+    background-color: rgb(83, 73, 73);
+} */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
+
+.main{
+    width: 80%;
+    border: 1px solid rgb(231, 10, 10);
+    display: flex;
+    justify-content: center;
+    padding: 10px 5px 10px 5px;
+    align-self: center;
+    background-color: gray;
+}
+
+.rightSignup{
+    width: 40%;
+    padding: 2rem;
+    font: 500 100%/1.5 system-ui;
+    background-color: antiquewhite;
+    border-radius:10px;
+    
+}
+
+.headline, .login, span{
+    text-align: center;
+}
+
+.no-border{
+    border: none;
+}
+
+.evalid, #togglePassword{
+    float: right;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    color: white;
+    width: 90%;
+    height: 35px;
+
+}
+  
+#or, #google{
+    text-align: center;
+}
+@media (max-width: 650px) {
+    .main {
+      flex-direction: column;
+    }
+    .rightSignup,
+    .leftside {
+      width: 100%;
+    }
+  }
+
+.leftside{
+    width: 60%;
+    padding: 2rem;
+    font: 500 100%/1.5 system-ui;
+    text-align: justify;
+    background-color: gray;
+
+}
+  
